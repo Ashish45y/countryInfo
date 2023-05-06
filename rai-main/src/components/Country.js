@@ -84,7 +84,7 @@ const Country = ({ country }) => {
       <Grid item xs={1}>
         <Divider orientation="vertical" sx={{ width: 5, color: "black" }} />
       </Grid>
-      <Grid item xs={7} className="app">
+      <Grid item xs={7} className="app" marginTop="40px">
         <div>
           <p>{weather.name}</p>
         </div>
