@@ -1,0 +1,64 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+  height: 305px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+  margin-top: 40px;
+}
+
+.app .top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.app .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 18px 10px;
+}
+
+.link:hover {
+  color: rgba(0, 0, 0);
+}
